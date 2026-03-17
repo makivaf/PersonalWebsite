@@ -1,0 +1,161 @@
+body{
+    background-color:pink;
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 75px;
+    font-weight: bold;
+}
+p{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+}
+p::first-letter{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+}
+img{
+    width: 320px;
+    height: 200px;
+    position: absolute;
+}
+.container{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-bottom: 10%;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    animation: ror 20s linear infinite;
+}
+@keyframes ror{
+    50%{
+        transform: rotateX(10deg);
+}
+80%{
+    transform: rotateX(10deg);
+}
+}
+.images{
+    width: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: rotate 20s linear infinite;
+}
+@keyframes rotate{
+    from{
+
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+img:nth-child(1){
+    transform: rotateY(60deg) translateZ(290px);
+}
+img:nth-child(2){
+    transform: rotateY(120deg) translateZ(290px);
+}
+img:nth-child(3){
+    transform: rotateY(180deg) translateZ(290px);
+}
+img:nth-child(4){
+    transform: rotateY(240deg) translateZ(290px);
+}
+img:nth-child(5){
+    transform: rotateY(300deg) translateZ(290px);
+}
+img:nth-child(6){
+    transform: rotateY(360deg) translateZ(290px);
+}
+img:hover{
+    width: 340px;
+    height: 220px;
+    cursor: pointer;
+}
+#box{
+    border: 5px solid rgb(255, 134, 154);
+    padding-top: 20px;
+    padding-bottom: 5px;
+    width: 750px;
+    height: 100px;
+    position: absolute;
+    background-color: black;
+    transform: rotateZ(4deg);
+    font-family: arial;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    color: pink;
+}
+
+a:hover{
+    color: white;
+} 
+a:active{
+    color: orange;
+}
+a:visited{
+    color: black;
+}
+a:focus{
+    color: red;
+}
+li:first-child{
+    background-color: rgb(245, 245, 127);
+}
+li:last-child{
+    background-color: rgb(149, 165, 214);
+}
+li:not(hover){
+    background-color: rgb(226, 218, 218);
+}
+li:hover{
+    background-color: pink;
+}
+#Boombayah::after{
+    content: '🖤';
+}
+#FY::after{
+    content: '🤍';
+}
+#HYLT::after{
+    content: '💜';
+}
+#KTL::after{
+    content: '💔';
+}
+#DDDD::after{
+    content: '💙';
+}
+#AIIYL::after{
+    content: '💛';
+}
+#LG::after{
+    content: '💚';
+}
+#Whistle::after{
+    content: '🧡';
+}
+#PS::after{
+    content: '🤎';
+}
+#Stay::after{
+    content: '💖';
+}
+input[type="text"]:enabled{
+    background-color: rgb(223, 165, 165);
+}
+input:disabled{
+    background-color: black;
+}
+
+
+

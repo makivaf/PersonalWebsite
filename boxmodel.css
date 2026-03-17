@@ -1,0 +1,62 @@
+body{
+    background-color: pink;
+    font-family: 'Arial', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+p{
+    font-family: 'Arial', sans-serif;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+.container-1{
+    background-color: black;
+    width: 500px;
+    height: 250px;
+    border: 5px solid white;
+    padding: 20px;
+    margin: 30px;
+    color: red;
+}
+.container-2{
+    background-color: black;
+    width: 500px;
+    height: 250px;
+    border: 5px solid white;
+    padding: 20px;
+    margin: 30px;
+    color: yellow;
+}
+.container-3{
+    background-color: black;
+    width: 500px;
+    height: 250px;
+    border: 5px solid white;
+    padding: 20px;
+    margin: 30px;
+    color: blue;
+}
+.container-4{
+    background-color: black;
+    width: 500px;
+    height: 250px;
+    border: 5px solid white;
+    padding: 20px;
+    margin: 30px;
+    color: white;
+}
+
+.container-1:hover {
+    transform: scale(1.1);
+    background-color: red;}
+.container-2:hover {
+    transform: scale(1.1);
+    background-color: yellow;}
+.container-3:hover {
+    transform: scale(1.1);
+    background-color: blue;}
+.container-4:hover {
+    transform: scale(1.1);
+    background-image: repeating-conic-gradient(rgb(255, 0, 0), rgb(255, 251, 0),rgb(47, 0, 255));}

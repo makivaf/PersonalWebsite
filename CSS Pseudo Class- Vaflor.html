@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head><title>Blackpink's Top 10 Songs</title>
+<style>
+    body{
+    background-color:pink;
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 75px;
+    font-weight: bold;
+}
+p{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+}
+p::first-letter{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+}
+img{
+    width: 320px;
+    height: 200px;
+    position: absolute;
+}
+.container{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-bottom: 10%;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    animation: ror 20s linear infinite;
+}
+@keyframes ror{
+    50%{
+        transform: rotateX(10deg);
+}
+80%{
+    transform: rotateX(10deg);
+}
+}
+.images{
+    width: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: rotate 20s linear infinite;
+}
+@keyframes rotate{
+    from{
+
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+img:nth-child(1){
+    transform: rotateY(60deg) translateZ(290px);
+}
+img:nth-child(2){
+    transform: rotateY(120deg) translateZ(290px);
+}
+img:nth-child(3){
+    transform: rotateY(180deg) translateZ(290px);
+}
+img:nth-child(4){
+    transform: rotateY(240deg) translateZ(290px);
+}
+img:nth-child(5){
+    transform: rotateY(300deg) translateZ(290px);
+}
+img:nth-child(6){
+    transform: rotateY(360deg) translateZ(290px);
+}
+img:hover{
+    width: 340px;
+    height: 220px;
+    cursor: pointer;
+}
+#box{
+    border: 5px solid rgb(255, 134, 154);
+    padding-top: 20px;
+    padding-bottom: 5px;
+    width: 750px;
+    height: 100px;
+    position: absolute;
+    background-color: black;
+    transform: rotateZ(4deg);
+    font-family: arial;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    color: pink;
+}
+
+a:hover{
+    color: white;
+} 
+a:active{
+    color: orange;
+}
+a:visited{
+    color: black;
+}
+a:focus{
+    color: red;
+}
+li:first-child{
+    background-color: rgb(245, 245, 127);
+}
+li:last-child{
+    background-color: rgb(149, 165, 214);
+}
+li:not(hover){
+    background-color: rgb(226, 218, 218);
+}
+li:hover{
+    background-color: pink;
+}
+#Boombayah::after{
+    content: '🖤';
+}
+#FY::after{
+    content: '🤍';
+}
+#HYLT::after{
+    content: '💜';
+}
+#KTL::after{
+    content: '💔';
+}
+#DDDD::after{
+    content: '💙';
+}
+#AIIYL::after{
+    content: '💛';
+}
+#LG::after{
+    content: '💚';
+}
+#Whistle::after{
+    content: '🧡';
+}
+#PS::after{
+    content: '🤎';
+}
+#Stay::after{
+    content: '💖';
+}
+input[type="text"]:enabled{
+    background-color: rgb(223, 165, 165);
+}
+input:disabled{
+    background-color: black;
+}
+</style>
+</head>
+<body>
+    <h1>TOP 10 BLACKPINK SONGS</h1>
+    <hr color="maroon" size="3px">
+<p>B LACKPINK, which took over the hearts of listeners around the world with their mega-hit songs such as <i>DDU-DU DDU-DU</i>, <i>Kill This Love</i> and <i>How You Like That</i> has made a comeback after a year and 10 months. In particular, the group had announced their comeback plans starting with the pre-release single <i>Pink Venom</i>, followed by the release of a new full album release and a world tour, drawing attention as to what new records they will break with this comeback.
+</p>
+<br>
+<div class="container">
+    <div class="images">
+        <img src="https://i.pinimg.com/564x/a8/0e/5b/a80e5b807b7e82caf2f8b37cb960357d.jpg" alt="Blackpink">
+        <img src="https://i.pinimg.com/564x/26/80/71/26807188501960c082cda9641db531ed.jpg" alt="Blackpink">
+        <img src="https://i.pinimg.com/564x/10/99/8b/10998b65dea5506a3896e906ea54b3cc.jpg" alt="Blackpink">
+        <img src="https://i.pinimg.com/564x/66/6e/79/666e7900bb1fcf8665bd1257284b15a3.jpg" alt="Blackpink">
+        <img src="https://i.pinimg.com/564x/73/79/7a/73797a56fedef4283ee2b865eb2ef4a6.jpg" alt="Blackpink">
+        <img src="https://i.pinimg.com/564x/ee/7f/48/ee7f4806911a0ac49d542d91c7216599.jpg" alt="Blackpink">
+    </div>
+</div>
+<br><br><br><br>
+<hr color="maroon" size="2px">
+<center>
+<div>
+    <div id="box">BLACKPINK IN YOUR AREA!</div>
+    </div>
+</center>
+<br>
+    <ol>
+        <li><h3 id="Boombayah">Boombayah</h3>
+        <dfn>Released in August 8, 2016</dfn><br>
+        <a href="https://www.youtube.com/watch?v=bwmSjveL3Lc" target="_blank">BLACKPINK - '붐바야 (BOOMBAYAH)' M/V</a></li>
+        <li><h3 id="FY">Forever Young</h3>
+        <dfn>Released in April 20, 2020</dfn><br>
+        <a href="https://www.youtube.com/watch?v=-gibBYpzZbI" target="_blank">BLACKPINK - 'FOREVER YOUNG' M/V</a></li></li>
+        <li><h3 id="HYLT">How You Like That</h3>
+        <dfn>Released in June 26, 2020</dfn><br>
+        <a href="https://www.youtube.com/watch?v=ioNng23DkIM" target="_blank">BLACKPINK - 'How You Like That' M/V</a></li></li></li>
+        <li><h3 id="KTL">Kill This Love</h3>
+        <dfn>Released in April 4, 2019</dfn><br>
+        <a href="https://www.youtube.com/watch?v=2S24-y0Ij3Y" target="_blank">BLACKPINK - 'Kill This Love' M/V</a></li></li></li>
+        <li><h3 id="DDDD">Ddu-du Ddu-du</h3>
+        <dfn>Released in June 15, 2018</dfn><br>
+        <a href="https://www.youtube.com/watch?v=IHNzOHi8sJs" target="_blank">BLACKPINK - ‘뚜두뚜두 (DDU-DU DDU-DU)'' M/V</a></li></li></li>
+        <li><h3 id="AIIYL">As If It's Your Last</h3>
+        <dfn>Released in June 22, 2017</dfn><br>
+        <a href="https://www.youtube.com/watch?v=Amq-qlqbjYA" target="_blank">BLACKPINK - '마지막처럼 (AS IF IT'S YOUR LAST)' M/V</a></li></li></li>
+        <li><h3 id="LG">Lovesick Girls</h3>
+        <dfn>Released in October 2, 2020</dfn><br>
+        <a href="https://www.youtube.com/watch?v=dyRsYk0LyA8" target="_blank">BLACKPINK - 'Lovesick Girls' M/V</a></li></li></li>
+        <li><h3 id="Whistle">Whistle</h3>
+        <dfn>Released in August 8, 2016</dfn><br>
+        <a href="https://www.youtube.com/watch?v=dISNgvVpWlo" target="_blank">BLACKPINK - '휘파람 (WHISTLE)' M/V</a></li></li></li>
+        <li><h3 id="PS">Pretty Savage</h3>
+        <dfn>Released in October 2, 2020</dfn><br>
+        <a href="https://www.youtube.com/watch?v=F8c8f2nK82w" target="_blank">BLACKPINK - 'PRETTY SAVAGE' M/V</a></li></li></li>
+        <li><h3 id="Stay">Stay</h3>
+        <dfn>Released in October 13 , 2016</dfn><br>
+        <a href="https://www.youtube.com/watch?v=FzVR_fymZw4" target="_blank">BLACKPINK - 'STAY' M/V</a></li></li></li>
+    </ol><hr color="maroon" size="3px">
+    <br>
+    <forms>
+    <fieldset>
+        <legend>BLACKPINK SONG SURVEY FORM</legend>
+        <label for="Most Favorite"><b>Most Favorite Song of Blackpink: </b></label>
+        <input type="text" placeholder="Input the song" id="song">
+        <br><br>
+        <label for="Most Favorite"><b>Least Favorite Song of Blackpink: </b></label>
+        <input type="text" id="song" disabled>
+    </fieldset>
+    </forms>
+    <br>
+</body>
+</html>

@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    box-sizing: border-box;
+   }
+   
+   nav{
+       overflow: hidden;
+       background: pink;
+       position: fixed;
+       top: 0;
+       width: 100%;
+   }
+   
+   label.logo{
+       color: black;
+       font-size: 40px;
+       line-height: 80px;
+       padding: 0 60px;
+       font-weight: bold;
+   }
+   nav ul{
+       float:right;
+       margin-right: 25px;
+   }
+   nav ul li{
+       display: inline-block;
+       line-height: 80px;
+       margin: 0 5px;
+   }
+   nav ul li a{
+       color: white;
+       font-size: 20px;
+       font-weight: bold;
+       padding: 7px 15px;
+       border-radius: 3px;
+   }
+   .background-image{
+       background-image: url("https://i.pinimg.com/564x/dd/52/c5/dd52c5fe197c612b667fcb1cc7080877.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+       height: 130vh;
+   }
+   nav ul li a:hover 
+   {
+     color: pink;
+     background: black;
+   }
+   
