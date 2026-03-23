@@ -35,13 +35,6 @@ This project is a static personal portfolio website designed to present my backg
 
 <img width="1895" height="938" alt="image" src="https://github.com/user-attachments/assets/7fe8b9d1-1462-4aa7-aa95-f97bec5b3a6e" />
 
-
-## 🔮 Future Improvements
-
-* Add JavaScript for interactivity
-* Improve animations and transitions
-* Expand with more project sections
-
 ## 👤 Author
 
 **Mariel Kim R. Vaflor**
