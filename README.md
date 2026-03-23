@@ -1,6 +1,7 @@
 # 🌐 Personal Website
 
-A responsive personal website developed using HTML and CSS to showcase my profile, projects, and front-end development skills.
+A responsive personal website developed using HTML and CSS to showcase my profile, projects, and front-end development skills. This personal website was originally created approximately three years ago as part of my early learning experience in front-end development. Some design choices, code structure, and features may not reflect my current skills and best practices, but it remains a valuable representation of my progress and growth over time.
+
 
 ## 🚀 Live Demo
 
@@ -32,7 +33,9 @@ This project is a static personal portfolio website designed to present my backg
 
 ## 📸 Screenshots
 
-*(Add screenshots here to improve presentation)*
+<img width="1895" height="938" alt="image" src="https://github.com/user-attachments/assets/7fe8b9d1-1462-4aa7-aa95-f97bec5b3a6e" />
+<img width="1899" height="920" alt="image" src="https://github.com/user-attachments/assets/1a9d1d84-a56b-4b14-9335-e410294c0b60" />
+
 
 ## 🔮 Future Improvements
 
@@ -48,4 +51,3 @@ This project is a static personal portfolio website designed to present my backg
 
 ---
 
-⭐ If you like this project, feel free to check out my other work!
